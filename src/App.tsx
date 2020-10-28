@@ -9,8 +9,8 @@ import './app.css';
 function App() {
   return (
     <div className="app">
-      <h1 className="app-title">Visx Area Chart</h1>
-      <AppleStockAreaChart />
+      <h1>Visx Area Chart</h1>
+      <AppleStockAreaChart width={640} height={480} />
     </div>
   );
 }
